@@ -1,33 +1,1275 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Portrait CSS*/
+@media screen and (orientation:portrait) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    .material-icons {
+      color: #009ab2 !important;
+      border-style: none !important;
+      text-align: right;
+      font-size: 2.5em;
+      margin-right: -34vw;
+      margin-top: 5vw;
+      margin-bottom: 5vw;
+      outline: none !important;
+    }
+    .icone{
+      border-style: none !important;       
+      outline: none !important;
+    }
+    .App{
+      z-index: 1;
+    }
+    .App-logo {
+      height: 9vw;
+      margin-left: -5vw;
+      pointer-events: none;
+    }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    .App-header {
+      background-color: transparent !important;
+      z-index: 1;
+    }
+    
+    .navbar-collapse {
+      background-color: #232323 !important;
+      top:0!important;
+      bottom:0!important;
+      margin-right: -8.6vw !important;
+      margin-top: -15.7vw !important;
+      margin-left: 40vw;
+      padding-bottom: 15vw !important;
+      margin-bottom: 0px !important;
+      z-index: 1;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-size: 0.9em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-right: 3vw;
+      margin-left: 3vw;
+      text-align: right;
+      z-index: 21;
+    }
+
+    .Capa {
+      z-index: 0 !important;
+      position: absolute;
+      top: 20vw;
+    }
+    .QuemSomos{
+      z-index: 0 !important;
+      position: absolute;
+      top: 60vmax;
+      top: 65vmin;
+      text-align: justify;
+    }
+    #QuemSomos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 6vw;
+      text-align: left;
+    }
+    .QuemConteudo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 4vw;
+    }
+    .serviceList{
+      z-index: 0 !important;
+      position: absolute;
+      margin-top: -2vmin;
+      top: calc(265vmin + 16px);
+      text-align: justify; 
+    }
+    #NossosServicos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 6vw;
+      text-align: left;
+      margin-left: 11vw;
+    }
+    .servicotitulo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 6vw;
+      text-align: center;
+      
+    }
+    .text-muted{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 6vw;
+      text-align: center;
+    }
+    .sevicoconteudo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 4vw;
+      text-align: center;
+    }
+        
+    .Links{
+      z-index: 0 !important;
+      position: absolute;
+      top: calc(520vmin + 20px);
+    }
+    .linknum{
+      font-size: 1.5em;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #009ab2;
+    }
+    .col{
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    .row{
+      text-align: center;
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    #Links{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-left: 6vw;
+      text-align: left;
+    }
+    .linkcontent{
+      font-size: 1.0em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+       
+    }
+    .box{
+      border-bottom-style: solid;
+      border-bottom-color: #232323;
+      text-align: center;
+      border-bottom-width: 0.25px;
+      padding: 5%;
+      padding-bottom: 7vw;
+    }
+    .card{
+      border: none !important;
+    }
+    .nav-link.active{
+      color: #009ab2 !important;
+    }
+    .Footer{
+      position: absolute;
+      top: calc(600vmin + 75px);
+      border-top-style: solid;
+      border-top-color: #009ab2;
+      text-align: center;
+      border-top-width: 3vw;
+      padding-top: 7vw;
+    }
+    .titulorosa{
+      color: #642b86;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 2.5vw;
+      margin-bottom: 2.5vw;
+    }
+    .conteudofooter{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      margin-top: 2.5vw;
+      margin-bottom: 2.5vw;
+    }
+    .copyright{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 2.5vw;
+      margin-bottom: 5vw;
+    }
+    .fa{
+      align-content: center;
+      font-size: 5vw;
+      margin: 1vw;
+      margin-top: 2.5vw;
+      margin-bottom: 2.5vw;
+    }
   }
-  to {
-    transform: rotate(360deg);
+
+
+
+
+
+
+
+  @media screen and (min-width:768px) and (max-width: 1023px) {
+
+    .material-icons {
+      color: #009ab2 !important;
+      border-style: none !important;
+      text-align: right;
+      font-size: 2.5em;
+      margin-right: -25vw;
+      margin-top: 3vw;
+      margin-bottom: 3vw;
+      outline: none !important;
+    }
+    .icone{
+      border-style: none !important;       
+      outline: none !important;
+    }
+    .App{
+      z-index: 1;
+    }
+    .App-logo {
+      height: 5vw;
+      margin-top: 2vw;
+      margin-left: -4vw;
+      pointer-events: none;
+    }
+
+
+    .App-header {
+      background-color: transparent !important;
+      z-index: 1;
+      padding-bottom: 10vw;
+    }
+    
+    .navbar-collapse {
+      background-color: #232323 !important;
+      margin-right: -8vw !important;
+      margin-left: 60vw;
+      top:0!important;
+      bottom:0!important;
+      padding-bottom: 12vw !important;
+      margin-bottom: 0px !important;
+      margin-top: -10vw;
+      z-index: 1;
+    }
+
+    .nav-link {
+      color: #232323 !important;
+      font-size: 10vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-right: 3vw;
+      margin-left: 3vw;
+      text-align: right;
+      z-index: 21;
+    }
+
+    .Capa {
+      z-index: 0 !important;
+      position: absolute;
+      top: 12vw;
+      width: 100%;
+    }
+    .QuemSomos{
+      z-index: 0 !important;
+      position: absolute;
+      top: 50vmax;
+      top: 50vmin;
+      text-align: justify;
+    }
+    #QuemSomos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 2vw;
+      text-align: left;
+    }
+    .QuemConteudo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 1.75vw;
+    }
+    .serviceList{
+      z-index: 0 !important;
+      position: absolute;
+      margin-top: -2vmin;
+      top: calc(140vmin + 16px);
+      text-align: justify;
+    }
+    #NossosServicos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 4vw;
+      text-align: center;
+      margin:6vw;
+    }
+    .servicotitulo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 2vw;
+      text-align: center;
+      
+      
+    }
+    .text-muted{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 2vw;
+      text-align: center;
+    }
+    .sevicoconteudo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 2vw;
+      text-align: center;
+    }
+    .card-size{
+      width: 15vw;
+      height: 60vw;
+    }
+    
+  
+    .Links{
+      z-index: 0 !important;
+      position: absolute;
+      top: calc(214vmin + 20px);
+    }
+    .linknum{
+      font-size: 2em;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #009ab2;
+    }
+    .col{
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    .row{
+      text-align: center;
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    #Links{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin:5vw;
+      font-size: 2em;
+      text-align: center;
+    }
+    .linkcontent{
+      font-size: 1.5em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      text-align: center;
+       
+    }
+    .box{
+      border-bottom-style: solid;
+      border-bottom-color: #232323;
+      text-align: center;
+      border-bottom-width: 0.25px;
+      padding: 5%;
+      padding-bottom: 7vw;
+    }
+    .card{
+      border: none !important;
+    }
+    .nav-link.active{
+      color: #009ab2 !important;
+    }
+    .Footer{
+      position: absolute;
+      top: calc(290vmin + 75px);
+      border-top-style: solid;
+      border-top-color: #009ab2;
+      text-align: center;
+      border-top-width: 1vw;
+      padding-top: 7vw;
+    }
+    .titulorosa{
+      color: #642b86;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 2.5vw;
+      margin-bottom: 2.5vw;
+    }
+    .conteudofooter{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      margin-top: 2.5vw;
+      margin-bottom: 2.5vw;
+    }
+    .copyright{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 2.5vw;
+      margin-bottom: 5vw;
+    }
+    .fa{
+      align-content: center;
+      font-size: 5vw;
+      margin: 1vw;
+      margin-top: 2.5vw;
+      margin-bottom: 2.5vw;
+    }
+
   }
+
+  
+
+
+
+
+  @media screen and (min-width:1024px) and (max-width: 1439px) {
+
+    .material-icons {
+      color: #009ab2 !important;
+      border-style: none !important;
+      text-align: right;
+      font-size: 2.5em;
+      margin-right: -25vw;
+      margin-top: 3vw;
+      margin-bottom: 3vw;
+      outline: none !important;
+    }
+    .icone{
+      border-style: none !important;       
+      outline: none !important;
+    }
+    .App{
+      z-index: 1;
+    }
+    .App-logo {
+      height: 5vw;
+      margin-top: 2vw;
+      margin-left: -4vw;
+      pointer-events: none;
+    }
+
+
+    .App-header {
+      background-color: transparent !important;
+      z-index: 1;
+      padding-bottom: 10vw;
+    }
+    
+    .navbar-collapse {
+      background-color: #232323 !important;
+      margin-right: -6vw !important;
+      margin-left: 60vw;
+      top:0!important;
+      bottom:0!important;
+      padding-bottom: 12vw !important;
+      margin-bottom: 0px !important;
+      margin-top: -10vw;
+      z-index: 1;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-size: 1.3em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-right: 3vw;
+      margin-left: 3vw;
+      text-align: right;
+      z-index: 21;
+    }
+
+    .Capa {
+      z-index: 0 !important;
+      position: absolute;
+      top: 12vw;
+      width: 100%;
+    }
+    .QuemSomos{
+      z-index: 0 !important;
+      position: absolute;
+      top: 50vmax;
+      top: 50vmin;
+      text-align: justify;
+    }
+    #QuemSomos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 2vw;
+      text-align: left;
+    }
+    .QuemConteudo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 1.75vw;
+    }
+    .serviceList{
+      z-index: 0 !important;
+      position: absolute;
+      margin-top: -2vmin;
+      top: calc(140vmin + 16px);
+      text-align: justify;
+    }
+    #NossosServicos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 4vw;
+      text-align: center;
+      margin:6vw;
+    }
+    .servicotitulo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 2vw;
+      text-align: center;
+      
+      
+    }
+    .text-muted{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 2vw;
+      text-align: center;
+    }
+    .sevicoconteudo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 2vw;
+      text-align: center;
+    }
+    .card-size{
+      width: 30vw;
+      height: 60vw;
+    }
+    
+  
+    .Links{
+      z-index: 0 !important;
+      position: absolute;
+      top: calc(205vmin + 20px);
+    }
+    .linknum{
+      font-size: 2em;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #009ab2;
+    }
+    .col{
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    .row{
+      text-align: center;
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    #Links{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin:5vw;
+      font-size: 2em;
+      text-align: center;
+    }
+    .linkcontent{
+      font-size: 1.5em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      text-align: center;
+       
+    }
+    .box{
+      border-bottom-style: solid;
+      border-bottom-color: #232323;
+      text-align: center;
+      border-bottom-width: 0.25px;
+      padding: 5%;
+      padding-bottom: 7vw;
+    }
+    .card{
+      border: none !important;
+    }
+    .nav-link.active{
+      color: #009ab2 !important;
+    }
+    .Footer{
+      position: absolute;
+      top: calc(275vmin + 75px);
+      border-top-style: solid;
+      border-top-color: #009ab2;
+      text-align: center;
+      border-top-width: 1vw;
+      padding-top: 7vw;
+    }
+    .titulorosa{
+      color: #642b86;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 2.5vw;
+      margin-bottom: 2.5vw;
+    }
+    .conteudofooter{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      margin-top: 2.5vw;
+      margin-bottom: 2.5vw;
+    }
+    .copyright{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 2.5vw;
+      margin-bottom: 5vw;
+    }
+    .fa{
+      align-content: center;
+      font-size: 5vw;
+      margin: 1vw;
+      margin-top: 2.5vw;
+      margin-bottom: 2.5vw;
+    }
+
+  }
+  @media screen and (min-width:1440px) and (max-width: 2559px) {
+
+    .material-icons {
+      color: #009ab2 !important;
+      border-style: none !important;
+      text-align: right;
+      font-size: 2.5em;
+      margin-right: -25vw;
+      margin-top: 3vw;
+      margin-bottom: 3vw;
+      outline: none !important;
+    }
+    .icone{
+      border-style: none !important;       
+      outline: none !important;
+    }
+    .App{
+      z-index: 1;
+    }
+    .App-logo {
+      height: 5vw;
+      margin-top: 2vw;
+      margin-left: -4vw;
+      pointer-events: none;
+    }
+
+
+    .App-header {
+      background-color: transparent !important;
+      z-index: 1;
+      padding-bottom: 10vw;
+    }
+    
+    
+
+    .nav-link {
+      color: #2b2c2c !important;
+      font-size: 1.3em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      text-align: right;
+      z-index: 21;
+    }
+
+    .Capa {
+      z-index: 0 !important;
+      position: absolute;
+      top: 12vw;
+      width: 100%;
+    }
+    .QuemSomos{
+      z-index: 0 !important;
+      position: absolute;
+      top: 50vmax;
+      top: 50vmin;
+      text-align: justify;
+    }
+    #QuemSomos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 2vw;
+      text-align: left;
+    }
+    .QuemConteudo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 1.75vw;
+    }
+    .serviceList{
+      z-index: 0 !important;
+      position: absolute;
+      margin-top: -2vmin;
+      top: calc(130vmin + 16px);
+      text-align: justify;
+    }
+    #NossosServicos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 4vw;
+      text-align: center;
+      margin:6vw;
+    }
+    .servicotitulo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 2vw;
+      text-align: center;
+      
+      
+    }
+    .text-muted{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 2vw;
+      text-align: center;
+    }
+    .sevicoconteudo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 2vw;
+      text-align: center;
+    }
+    .card-size{
+      width: 30vw;
+      height: 60vw;
+    }
+    
+  
+    .Links{
+      z-index: 0 !important;
+      position: absolute;
+      top: calc(190vmin + 20px);
+    }
+    .linknum{
+      font-size: 2em;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #009ab2;
+    }
+    .col{
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    .row{
+      text-align: center;
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    #Links{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin:5vw;
+      font-size: 2.5em;
+      text-align: center;
+    }
+    .linkcontent{
+      font-size: 2em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      text-align: center;
+       
+    }
+    .box{
+      border-bottom-style: solid;
+      border-bottom-color: #232323;
+      text-align: center;
+      border-bottom-width: 0.25px;
+      padding: 5%;
+      padding-bottom: 7vw;
+    }
+    .card{
+      border: none !important;
+    }
+    .nav-link.active{
+      color: #009ab2 !important;
+    }
+    .Footer{
+      position: absolute;
+      top: calc(255vmin + 75px);
+      border-top-style: solid;
+      border-top-color: #009ab2;
+      text-align: center;
+      border-top-width: 1vw;
+      padding-top: 7vw;
+    }
+    .titulorosa{
+      color: #642b86;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 0.5vw;
+      margin-bottom: 0.5vw;
+      font-size: 1.5em;
+    }
+    .conteudofooter{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      margin-top: 0.5vw;
+      margin-bottom: 0.5vw;
+      font-size: 1.5em;
+    }
+    .copyright{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 2.5vw;
+      margin-bottom: 0vw;
+      font-size: 1.5em;
+    }
+    .fa{
+      align-content: center;
+      font-size: 2.5vw;
+      margin: 1vw;
+      margin-top: 1.5vw;
+    }
+
+  }
+
+
+
+
+
+
+
+  @media screen and (min-width:2560px) {
+
+    
+    .App{
+      z-index: 1;
+    }
+    .App-logo {
+      height: 5vw;
+      margin-top: 2vw;
+      pointer-events: none;
+    }
+
+
+    .App-header {
+      background-color: transparent !important;
+      z-index: 1;
+      padding-bottom: 10vw;
+    }
+    
+    
+
+    .nav-link {
+      color: #2b2c2c !important;
+      font-size: 8em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      text-align: right;
+      z-index: 21;
+    }
+
+    .Capa {
+      z-index: 0 !important;
+      position: absolute;
+      top: 12vw;
+      width: 100%;
+    }
+    .QuemSomos{
+      z-index: 0 !important;
+      position: absolute;
+      top: 50vh;
+      text-align: justify;
+    }
+    #QuemSomos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 2vw;
+      text-align: left;
+    }
+    .QuemConteudo{
+      position: absolute;
+      margin-left: 50vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 1.75vw;
+    }
+    .serviceList{
+      z-index: 0 !important;
+      position: absolute;
+      margin-top: -2vmin;
+      top: calc(130vmin + 16px);
+      text-align: justify;
+    }
+    #NossosServicos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 10vw;
+      text-align: center;
+      margin:6vw;
+    }
+    .servicotitulo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 1.5vw;
+      text-align: center;
+      
+      
+    }
+    .text-muted{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 2vw;
+      text-align: center;
+    }
+    .sevicoconteudo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 1vw;
+      text-align: center;
+    }
+    .card-size{
+      width: 1vw;
+      height: 5vw;
+    }
+    
+  
+    .Links{
+      z-index: 0 !important;
+      position: absolute;
+      top: calc(190vmin + 20px);
+    }
+    .linknum{
+      font-size: 2em;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #009ab2;
+    }
+    .col{
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    .row{
+      text-align: center;
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    #Links{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin:5vw;
+      font-size: 2.5em;
+      text-align: center;
+    }
+    .linkcontent{
+      font-size: 2em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      text-align: center;
+       
+    }
+    .box{
+      border-bottom-style: solid;
+      border-bottom-color: #232323;
+      text-align: center;
+      border-bottom-width: 0.25px;
+      padding: 5%;
+      padding-bottom: 7vw;
+    }
+    .card{
+      border: none !important;
+    }
+    .nav-link.active{
+      color: #009ab2 !important;
+    }
+    .Footer{
+      position: absolute;
+      top: calc(255vmin + 75px);
+      border-top-style: solid;
+      border-top-color: #009ab2;
+      text-align: center;
+      border-top-width: 1vw;
+      padding-top: 7vw;
+    }
+    .titulorosa{
+      color: #642b86;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 0.5vw;
+      margin-bottom: 0.5vw;
+      font-size: 1.5em;
+    }
+    .conteudofooter{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      margin-top: 0.5vw;
+      margin-bottom: 0.5vw;
+      font-size: 1.5em;
+    }
+    .copyright{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 2.5vw;
+      margin-bottom: 0vw;
+      font-size: 1.5em;
+    }
+    .fa{
+      align-content: center;
+      font-size: 2.5vw;
+      margin: 1vw;
+      margin-top: 1.5vw;
+    }
+
+  }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Landscape CSS*/
+@media screen and (orientation:landscape) {
+  @media screen and (min-width: 320px) and (max-width: 1023px) {
+
+    .material-icons {
+      color: #009ab2 !important;
+      border-style: none !important;
+      text-align: right;
+      font-size: 2.5em;
+      margin-right: -105vh;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+      outline: none !important;
+    }
+    .icone{
+      border-style: none !important;       
+      outline: none !important;
+    }
+    .App{
+      z-index: 1;
+    }
+    .App-logo {
+      height: 9vh;
+      margin-left: -5vh;
+      pointer-events: none;
+    }
+
+
+    .App-header {
+      background-color: transparent !important;
+      z-index: 1;
+    }
+    
+    .navbar-collapse {
+      background-color: #232323 !important;
+      margin-right: -26.9vh !important;
+      margin-top: -15.7vh !important;
+      margin-left: 40vh;
+      padding-bottom: 15vh !important;
+      margin-bottom: 0px !important;
+      z-index: 1;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-size: 0.9em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-right: 3vh;
+      margin-left: 3vh;
+      text-align: right;
+      z-index: 21;
+    }
+
+    .Capa {
+      z-index: 0 !important;
+      position: absolute;
+      top: 20vh;
+    }
+    .QuemSomos{
+      z-index: 0 !important;
+      position: absolute;
+      
+      top: 100vh;
+      text-align: justify;
+    }
+    #QuemSomos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 6vh;
+      text-align: left;
+    }
+    .QuemConteudo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 4vh;
+    }
+    .serviceList{
+      z-index: 0 !important;
+      position: absolute;
+      margin-top: -2vmin;
+      top: calc(300vh + 16px);
+      text-align: justify; 
+    }
+    #NossosServicos{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 3vh;
+      text-align: left;
+      margin-left: 11vh;
+    }
+    .servicotitulo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 3vh;
+      text-align: center;
+      
+    }
+    .text-muted{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 6vh;
+      text-align: center;
+    }
+    .sevicoconteudo{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 4vh;
+      text-align: center;
+    }
+    
+    .Links{
+      z-index: 0 !important;
+      position: absolute;
+      top: calc(480vh + 20px);
+    }
+    .linknum{
+      font-size: 1.5em;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #009ab2;
+    }
+    .col{
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    .row{
+      text-align: center;
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    #Links{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-left: 6vh;
+      text-align: left;
+    }
+    .linkcontent{
+      font-size: 1.0em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+       
+    }
+    .box{
+      border-bottom-style: solid;
+      border-bottom-color: #232323;
+      text-align: center;
+      border-bottom-width: 0.25px;
+      padding: 5%;
+      padding-bottom: 7vh;
+    }
+    .card{
+      border: none !important;
+    }
+    .nav-link.active{
+      color: #009ab2 !important;
+    }
+    .Footer{
+      position: absolute;
+      top: calc(570vh + 75px);
+      border-top-style: solid;
+      border-top-color: #009ab2;
+      text-align: center;
+      border-top-width: 3vh;
+      padding-top: 7vh;
+    }
+    .titulorosa{
+      color: #642b86;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 2.5vh;
+      margin-bottom: 2.5vh;
+    }
+    .conteudofooter{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      margin-top: 2.5vh;
+      margin-bottom: 2.5vh;
+    }
+    .copyright{
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-top: 2.5vh;
+      margin-bottom: 5vh;
+    }
+    .fa{
+      align-content: center;
+      font-size: 5vh;
+      margin: 1vh;
+      margin-top: 2.5vh;
+      margin-bottom: 2.5vh;
+    }
+
+
+  }
+
+  
+}
+
